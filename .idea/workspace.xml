@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be7c57c9-5ed6-4a81-aac7-863f4364e16d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\localMaven\maven_repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kKbugtBHquZwRmecjeE6uGKJFg" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="D:/localMaven/maven_repository/org/tensquare/tensquare_common/1.0-SNAPSHOT/tensquare_common-1.0-SNAPSHOT.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\十次方(前后端)无加密 完整版\tensquare\tensquare_common\src\main\java\util" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.base.BaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BaseApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\czq\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be7c57c9-5ed6-4a81-aac7-863f4364e16d" name="Default Changelist" comment="" />
+      <created>1605452454214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605452454214</updated>
+      <workItem from="1605452456179" duration="723000" />
+      <workItem from="1605453222087" duration="136000" />
+      <workItem from="1605453360860" duration="2458000" />
+      <workItem from="1605617532391" duration="2672000" />
+      <workItem from="1605624839007" duration="386000" />
+      <workItem from="1605625235251" duration="2365000" />
+      <workItem from="1605627719656" duration="1705000" />
+      <workItem from="1605798454400" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1605628271645">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605628271645" />
+    <state x="719" y="212" key="FileChooserDialogImpl" timestamp="1605628745021">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="719" y="212" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605628745021" />
+    <state width="1877" height="182" key="GridCell.Tab.0.bottom" timestamp="1605627702395">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
+    <state width="1877" height="182" key="GridCell.Tab.0.center" timestamp="1605627702395">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="182" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
+    <state width="1877" height="182" key="GridCell.Tab.0.left" timestamp="1605627702395">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="182" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
+    <state width="1877" height="182" key="GridCell.Tab.0.right" timestamp="1605627702395">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="182" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1605624628280">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605624628280" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1605627824241">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627824241" />
+    <state x="334" y="219" key="new project wizard" timestamp="1605624058054">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="334" y="219" key="new project wizard/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605624058054" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605626268314">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605626268314" />
+  </component>
+</project>
