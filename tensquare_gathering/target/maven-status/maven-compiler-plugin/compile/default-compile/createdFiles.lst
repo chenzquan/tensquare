@@ -1,0 +1,7 @@
+entity\PageResult.class
+util\IdWorker.class
+com\tensquare\gathering\GatheringApplication.class
+com\tensquare\gathering\service\GatheringService.class
+entity\Result.class
+com\tensquare\gathering\controller\BaseExceptionHandler.class
+entity\StatusCode.class

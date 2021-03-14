@@ -1,7 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7c57c9-5ed6-4a81-aac7-863f4364e16d" name="Default Changelist" comment="" />
+    <list default="true" id="be7c57c9-5ed6-4a81-aac7-863f4364e16d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/ArticleApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/controller/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/dao/CommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/pojo/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/com/tensquare/article/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/entity/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/entity/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/classes/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_article/target/tensquare_article-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/GatheringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/service/GatheringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/com/tensquare/gathering/GatheringApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/com/tensquare/gathering/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/com/tensquare/gathering/service/GatheringService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/entity/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/entity/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/classes/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/target/tensquare_gathering-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/QaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/controller/ProblemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/dao/ProblemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/pojo/Pl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/service/ProblemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/QaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/controller/ProblemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/dao/ProblemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/pojo/Pl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/service/ProblemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/entity/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/entity/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/target/tensquare_qa-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/RecruitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/RecruitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/pojo/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/pojo/Recruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/RecruitApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/controller/BaseExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/controller/EnterpriseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/controller/RecruitController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/dao/EnterpriseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/dao/RecruitDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/pojo/Enterprise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/pojo/Recruit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/RecruitService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/entity/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/entity/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/target/tensquare_recruit-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/RecruitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/controller/ArticleSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/dao/ArticleSearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/service/ArticleSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/classes/com/tensquare/search/RecruitApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/classes/com/tensquare/search/controller/ArticleSearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/classes/com/tensquare/search/dao/ArticleSearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/classes/com/tensquare/search/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/classes/com/tensquare/search/service/ArticleSearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_search/target/tensquare_search-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/SpitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/controller/SpitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/dao/SpitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/pojo/Spit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/service/SpitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/classes/com/tensquare/spit/SpitApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/classes/com/tensquare/spit/controller/SpitController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/classes/com/tensquare/spit/dao/SpitDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/classes/com/tensquare/spit/pojo/Spit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/classes/com/tensquare/spit/service/SpitService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/target/tensquare_spit-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_parent52.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +191,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -53,7 +219,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="D:/localMaven/maven_repository/org/tensquare/tensquare_common/1.0-SNAPSHOT/tensquare_common-1.0-SNAPSHOT.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -63,6 +229,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tensquare" />
       <recent name="E:\十次方(前后端)无加密 完整版\tensquare\tensquare_common\src\main\java\util" />
     </key>
   </component>
@@ -116,6 +283,7 @@
       <workItem from="1605625235251" duration="2365000" />
       <workItem from="1605627719656" duration="1705000" />
       <workItem from="1605798454400" duration="596000" />
+      <workItem from="1615735972797" duration="386000" />
     </task>
     <servers />
   </component>
@@ -123,45 +291,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1605628271645">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1615736425742">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605628271645" />
-    <state x="719" y="212" key="FileChooserDialogImpl" timestamp="1605628745021">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="719" y="212" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605628745021" />
-    <state width="1877" height="182" key="GridCell.Tab.0.bottom" timestamp="1605627702395">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
-    <state width="1877" height="182" key="GridCell.Tab.0.center" timestamp="1605627702395">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
-    <state width="1877" height="182" key="GridCell.Tab.0.left" timestamp="1605627702395">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
-    <state width="1877" height="182" key="GridCell.Tab.0.right" timestamp="1605627702395">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627702395" />
-    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1605624628280">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605624628280" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1605627824241">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605627824241" />
-    <state x="334" y="219" key="new project wizard" timestamp="1605624058054">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="334" y="219" key="new project wizard/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605624058054" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605626268314">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2048.1506@0.0.1920.1050" timestamp="1605626268314" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615736425742" />
   </component>
 </project>
