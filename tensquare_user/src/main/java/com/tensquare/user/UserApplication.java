@@ -1,4 +1,4 @@
-package com.tensquare.user.controller;
+package com.tensquare.user;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
