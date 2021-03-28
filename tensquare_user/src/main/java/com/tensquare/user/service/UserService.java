@@ -1,12 +1,13 @@
 package com.tensquare.user.service;
 
 import com.tensquare.common.utils.IdWorker;
-import com.tensquare.user.UserDao;
+import com.tensquare.user.dao.UserDao;
 import com.tensquare.user.pojo.User;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -28,6 +29,9 @@ public class UserService {
 
     @Autowired
     private UserDao userDao;
+
+    @Autowired
+    private BCryptPasswordEncoder encoder;
 
     public void sendSms(String mobile) {
         //生成6位数随机数
@@ -64,14 +68,30 @@ public class UserService {
             throw new RuntimeException("验证码输入不正确");
         }
         user.setId( idWorker.nextId()+"");
+        user.setMobile(user.getMobile());
+        user.setNickname(user.getNickname());
+        user.setSex(user.getSex());
+
         user.setFollowcount(0);//关注数
         user.setFanscount(0);//粉丝数
         user.setOnline(0L);//在线时长
         user.setRegdate(new Date());//注册日期
         user.setUpdatedate(new Date());//更新日期
         user.setLastdate(new Date());//最后登陆日期
+
+        //密码加密
+        String newpassword = encoder.encode(user.getPassword());//加密后的密码
+        user.setPassword(newpassword);
         userDao.save(user);
     }
 
 
+    public User login(String mobile, String password) {
+        User user = userDao.findByMobile(mobile);
+        if(user!=null && encoder.matches(password,user.getPassword())){
+            return user;
+        }
+        return null;
+
+    }
 }

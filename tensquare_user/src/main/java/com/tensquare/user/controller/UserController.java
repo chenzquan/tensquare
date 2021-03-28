@@ -14,6 +14,17 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    public Result login(@RequestBody User user){
+        user = userService.login(user.getMobile(),user.getPassword());
+        if(user == null){
+            return new Result(true, StatusCode.LOGINERROR,"登录失败");
+        }
+
+        return new Result(true, StatusCode.OK,"登录成功");
+    }
+
     @RequestMapping(value = "/sendsms/{mobile}", method = RequestMethod.POST)
     public Result sendSms(@PathVariable String mobile){
         userService.sendSms(mobile);
