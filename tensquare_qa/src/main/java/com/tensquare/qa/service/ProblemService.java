@@ -1,8 +1,9 @@
 package com.tensquare.qa.service;
 
 import com.tensquare.qa.dao.ProblemDao;
+import com.tensquare.qa.pojo.Problem;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.parsing.Problem;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
@@ -53,4 +54,8 @@ public class ProblemService {
         return problemDao.findWaitListByLabelId(lableId, pageRequest);
     }
 
+
+    public void add(Problem problem) {
+        problemDao.save(problem);
+    }
 }

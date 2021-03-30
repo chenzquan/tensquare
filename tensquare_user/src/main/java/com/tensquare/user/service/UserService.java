@@ -94,4 +94,8 @@ public class UserService {
         return null;
 
     }
+
+    public void deleteById(String id) {
+        userDao.deleteById(id);
+    }
 }
