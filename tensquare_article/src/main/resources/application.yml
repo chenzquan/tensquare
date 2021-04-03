@@ -19,3 +19,10 @@ spring:
     mongodb:
       database: recruitdb
       host: 192.168.21.135
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true  #为了服务之间跨域

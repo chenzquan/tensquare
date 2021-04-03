@@ -27,6 +27,30 @@
             </Config>
           </value>
         </entry>
+        <entry key="tb_friend">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="TbFriendDao" />
+              <option name="daoPackage" value="generate" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="TbFriend" />
+              <option name="modelPackage" value="generate" />
+              <option name="name" value="tb_friend" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="userid" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="tb_friend" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="generator" />
+            </Config>
+          </value>
+        </entry>
         <entry key="tb_problem">
           <value>
             <Config>

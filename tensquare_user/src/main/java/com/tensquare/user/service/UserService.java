@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -98,4 +99,24 @@ public class UserService {
     public void deleteById(String id) {
         userDao.deleteById(id);
     }
+
+    /**
+     * 更新关注数
+     * @param x
+     */
+    @Transactional
+    public void incFollowcount(String userid,int x){
+        userDao.incFollowcount(userid,x);
+    }
+
+    /**
+     * 更新粉丝数
+     * @param x
+     */
+    @Transactional
+    public void incFanscount(String userid,int x){
+        userDao.incFanscount(userid,x);
+    }
+
+
 }
