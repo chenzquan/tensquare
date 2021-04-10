@@ -9,13 +9,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tensquare_eureka</artifactId>
+    <artifactId>tensquare_config</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+
+
+        <!--  不重启微服务的情况下更新配置  ++++++++++++++++++++++++++++++++++++++++++++  -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-bus</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+        </dependency>
+        <!--  不重启微服务的情况下更新配置  ++++++++++++++++++++++++++++++++++++++++++++  -->
+
     </dependencies>
 
 
@@ -54,6 +67,7 @@
 FROM jdk1.8
 ADD app.jar /
 ENTRYPOINT ["java","‐jar","/app.jar"]-->
+
 
 
 </project>

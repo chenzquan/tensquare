@@ -2,46 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be7c57c9-5ed6-4a81-aac7-863f4364e16d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/FriendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/controller/FriendController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/dao/FriendDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/dao/NoFriendDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/pojo/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/pojo/NoFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/service/FriendService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/tensquare_friend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/LabelClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/tensquare_config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/impl/LabelClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/tensquare_web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tensquare/user/pojo/TbUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/QaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/QaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/controller/FriendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/controller/FriendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/LabelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/LabelClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/controller/ProblemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -120,13 +108,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mall-swarm-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -143,20 +131,12 @@
       <recent name="E:\十次方(前后端)无加密 完整版\tensquare\tensquare_common\src\main\java\util" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.BaseApplication">
-    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_article" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tensquare.article.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.article.ArticleApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tensquare_base" />
       <extension name="coverage">
@@ -167,6 +147,19 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.base.BaseApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.config.ConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,46 +177,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_qa" />
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.qa.*" />
+          <option name="PATTERN" value="com.tensquare.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.qa.QaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.manager.ManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_user" />
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.user.*" />
+          <option name="PATTERN" value="com.tensquare.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.user.UserApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.web.WebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ArticleApplication" />
       <item itemvalue="Spring Boot.BaseApplication" />
+      <item itemvalue="Spring Boot.ManagerApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServer" />
-      <item itemvalue="Spring Boot.QaApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.BaseApplication" />
-        <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +266,14 @@
       <workItem from="1617199806011" duration="2826000" />
       <workItem from="1617202645781" duration="3532000" />
       <workItem from="1617284505405" duration="4517000" />
-      <workItem from="1617446313663" duration="6655000" />
+      <workItem from="1617446313663" duration="7305000" />
+      <workItem from="1617515905847" duration="4517000" />
+      <workItem from="1617596111727" duration="4740000" />
+      <workItem from="1617628524422" duration="4532000" />
+      <workItem from="1617715063168" duration="7985000" />
+      <workItem from="1617798239331" duration="8811000" />
+      <workItem from="1617885513413" duration="3156000" />
+      <workItem from="1618043970506" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="重建">
       <created>1615736479741</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617114274042</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第七天完">
+      <created>1617462765558</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617462765558</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +328,8 @@
     <MESSAGE value="rabbitmq使用列子" />
     <MESSAGE value="sms" />
     <MESSAGE value="token认证" />
-    <option name="LAST_COMMIT_MESSAGE" value="token认证" />
+    <MESSAGE value="第七天完" />
+    <option name="LAST_COMMIT_MESSAGE" value="第七天完" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" timestamp="1617200129165">
@@ -336,10 +344,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="699" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1617199790721" />
-    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1617458528846">
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1617717330195">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1617458528846" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1617717330195" />
     <state x="690" y="300" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1615818894339">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -356,62 +364,66 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1187" y="220" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1616946220864" />
-    <state x="518" y="115" key="CommitChangelistDialog2" timestamp="1617114273117">
+    <state x="518" y="115" key="CommitChangelistDialog2" timestamp="1617462764330">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="518" y="115" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1617114273117" />
+    <state x="518" y="115" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1617462764330" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1617197654502">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617197654502" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1617462711866">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1617719735422">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617462711866" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1617462711866">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1617719735422" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1618074292706">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617462711866" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1617462711866">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1618074292706" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1618074292706">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617462711866" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1617462711866">
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1618074292706" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1618074292705">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617462711866" />
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1617288922129">
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1618074292705" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1618074292706">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922129" />
-    <state width="1877" height="318" key="GridCell.Tab.1.center" timestamp="1617288922129">
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1618074292706" />
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom" timestamp="1617810890487">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922129" />
-    <state width="1877" height="318" key="GridCell.Tab.1.left" timestamp="1617288922129">
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617810890487" />
+    <state width="1877" height="248" key="GridCell.Tab.1.center" timestamp="1617810890487">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922129" />
-    <state width="1877" height="318" key="GridCell.Tab.1.right" timestamp="1617288922129">
+    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617810890487" />
+    <state width="1877" height="248" key="GridCell.Tab.1.left" timestamp="1617810890487">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922129" />
-    <state width="1877" height="318" key="GridCell.Tab.2.bottom" timestamp="1617288922130">
+    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617810890487" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right" timestamp="1617810890487">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922130" />
-    <state width="1877" height="318" key="GridCell.Tab.2.center" timestamp="1617288922130">
+    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617810890487" />
+    <state width="1877" height="310" key="GridCell.Tab.2.bottom" timestamp="1617725857097">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922130" />
-    <state width="1877" height="318" key="GridCell.Tab.2.left" timestamp="1617288922130">
+    <state width="1877" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617725857097" />
+    <state width="1877" height="310" key="GridCell.Tab.2.center" timestamp="1617725857097">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922130" />
-    <state width="1877" height="318" key="GridCell.Tab.2.right" timestamp="1617288922130">
+    <state width="1877" height="310" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617725857097" />
+    <state width="1877" height="310" key="GridCell.Tab.2.left" timestamp="1617725857097">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="318" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617288922130" />
+    <state width="1877" height="310" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617725857097" />
+    <state width="1877" height="310" key="GridCell.Tab.2.right" timestamp="1617725857097">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617725857097" />
     <state width="283" height="477" key="HiddenNamespacesPopup" timestamp="1615818755168">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -420,14 +432,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616943236141" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1615815618971">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1618058418905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615815618971" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1617114281131">
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1618058418905" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1617462770099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617114281131" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617462770099" />
     <state x="676" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1617111593697">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -436,10 +448,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="636" y="258" width="647" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1617206039341" />
-    <state x="334" y="76" key="new project wizard" timestamp="1617288595672">
+    <state x="334" y="76" key="new project wizard" timestamp="1617801796772">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="334" y="76" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1617288595672" />
+    <state x="334" y="76" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1617801796772" />
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1618058331513">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1618058331513" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1617454484357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

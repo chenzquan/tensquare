@@ -33,13 +33,13 @@ public class FriendController {
         if(claims==null){
             return new Result(false, StatusCode.ACCESSERROR,"无权访问");
         }
-//如果是喜欢
+        //如果是喜欢
         if(type.equals("1")){
             if(friendService.addFriend(claims.getId(),friendid)==0){
                 return new Result(false, StatusCode.REPERROR,"已经添加此好友");
             }
         }else{
-//不喜欢
+        //不喜欢
             friendService.addNoFriend(claims.getId(),friendid);//向不喜欢列表中添加记录
         }
         return new Result(true, StatusCode.OK, "操作成功");

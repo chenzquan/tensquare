@@ -77,7 +77,7 @@ public class ProblemController {
      * 发布问题
      * @param problem
      */
-    @RequestMapping(method=RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST)
     public Result add(@RequestBody Problem problem ){
         Claims claims=(Claims)request.getAttribute("user_claims");
         if(claims==null){
