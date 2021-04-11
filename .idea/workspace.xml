@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be7c57c9-5ed6-4a81-aac7-863f4364e16d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,6 +249,7 @@
       <workItem from="1617798239331" duration="8811000" />
       <workItem from="1617885513413" duration="3156000" />
       <workItem from="1618043970506" duration="3637000" />
+      <workItem from="1618144240855" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="重建">
       <created>1615736479741</created>
@@ -352,10 +355,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1187" y="220" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1616946220864" />
-    <state x="518" y="115" key="CommitChangelistDialog2" timestamp="1618122064804">
+    <state x="518" y="115" key="CommitChangelistDialog2" timestamp="1618122260200">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="518" y="115" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1618122064804" />
+    <state x="518" y="115" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1618122260200" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1617197654502">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -424,10 +427,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1618058418905" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1618122072719">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1618122283180">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1618122072719" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1618122283180" />
     <state x="676" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1617111593697">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
