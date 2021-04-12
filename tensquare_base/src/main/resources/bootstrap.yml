@@ -5,3 +5,5 @@ spring:
       profile: dev
       label: master
       uri: http://192.168.21.135:12000
+#      uri: http://127.0.0.1:12000
+
