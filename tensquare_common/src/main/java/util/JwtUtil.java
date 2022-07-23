@@ -4,7 +4,6 @@ package util;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-
 import java.util.Date;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
